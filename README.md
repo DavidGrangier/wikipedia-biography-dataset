@@ -20,16 +20,16 @@ values. The dataset was randomly split in three subsets train (80%), valid
 evaluation.
 
 The data is organised in three subdirectories for train, valid and test.
-Each directory contains 7 files
-
-SET.id contains the list of wikipedia ids, one article per line.
-SET.url contains the url of the wikipedia articles, one article per line.
-SET.box contains the infobox data, one article per line.
-SET.nb contains the number of sentences per article, one article per line.
-SET.sent contains the sentences, one sentence per line.
-SET.title contains the title of the wikipedia article, one per line.
+Each directory contains 7 files<br>
+<br>
+SET.id contains the list of wikipedia ids, one article per line.<br>
+SET.url contains the url of the wikipedia articles, one article per line.<br>
+SET.box contains the infobox data, one article per line.<br>
+SET.nb contains the number of sentences per article, one article per line.<br>
+SET.sent contains the sentences, one sentence per line.<br>
+SET.title contains the title of the wikipedia article, one per line.<br>
 SET.contributors contains the url of the wikipedia article history, which list
-the authors of the article.
+the authors of the article.<br>
 
 Hence all the file allows to access the information for one article relying
 on line numbers. It is necessary to use SET.nb to split the sentences
