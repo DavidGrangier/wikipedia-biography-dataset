@@ -62,7 +62,7 @@ License information is provided in License.txt
 
 ## Decompressing zip files
 
-We splitted the archive in multiple files. To extract, run 
-cat wikipedia-biography-dataset.z?? > tmp.zip
-unzip tmp.zip
-rm tmp.zip
+We splitted the archive in multiple files. To extract, run<br>
+cat wikipedia-biography-dataset.z?? > tmp.zip<br>
+unzip tmp.zip<br>
+rm tmp.zip<br>
