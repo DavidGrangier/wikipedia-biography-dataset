@@ -20,13 +20,16 @@ values. The dataset was randomly split in three subsets train (80%), valid
 evaluation.
 
 The data is organised in three subdirectories for train, valid and test.
-Each directory contains 5 files
+Each directory contains 7 files
 
 SET.id contains the list of wikipedia ids, one article per line.
 SET.url contains the url of the wikipedia articles, one article per line.
 SET.box contains the infobox data, one article per line.
 SET.nb contains the number of sentences per article, one article per line.
 SET.sent contains the sentences, one sentence per line.
+SET.title contains the title of the wikipedia article, one per line.
+SET.contributors contains the url of the wikipedia article history, which list
+the authors of the article.
 
 Hence all the file allows to access the information for one article relying
 on line numbers. It is necessary to use SET.nb to split the sentences
@@ -57,3 +60,9 @@ v1.0 (this version) Initial Release.
 ## License
 License information is provided in License.txt
 
+## Decompressing zip files
+
+We splitted the archive in multiple files. To extract, run 
+cat wikipedia-biography-dataset.z?? > tmp.zip
+unzip tmp.zip
+rm tmp.zip
