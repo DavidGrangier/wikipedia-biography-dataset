@@ -2,7 +2,7 @@
 This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, we provide the first paragraph and the infobox (both tokenized). It was used in our
 work,
 
-**Text Generation from Structured Data with Application to the Biography Domain**<br>
+**Neural Text Generation from Structured Data with Application to the Biography Domain**<br>
 Rémi Lebret, David Grangier and Michael Auli, EMNLP 16,<br>
 http://arxiv.org/abs/1603.07771<br>
 
